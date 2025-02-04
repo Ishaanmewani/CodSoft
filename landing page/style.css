@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.header-contact {
+    text-align: right;
+    font-size: 14px;
+}
+
+.header-contact p {
+    margin-bottom: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('fitness-hero.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* Features Section */
+.features {
+    background: #f4f4f4;
+    padding: 40px 0;
+    display: flex; /* Maintain flex display */
+   
+    justify-content: space-between;
+    text-align: center;
+}
+
+.feature-box {
+    flex: 1; /* Allow each feature box to take equal space */
+    margin: 0 10px; /* Optional: add some margin between boxes */
+}
+
+.feature-box i {
+    font-size: 36px;
+    color: #28a745;
+
+
+}
+
+.feature-box h3 {
+    font-size: 22px;
+   
+}
+
+.feature-box p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* About Section */
+.about {
+    background: #fff;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-content {
+    width: 50%;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    color: #666;
+}
+
+.about-image {
+    width: 40%;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Services Section */
+.services {
+    background: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.service-box {
+    display: inline-block;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.service-box img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.service-box h3 {
+    font-size: 22px;
+}
+
+/* Footer Section */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-social {
+    margin-top: 10px;
+}
+
+footer .footer-social a {
+    color: #fff;
+    margin: 0 10px;
+}
